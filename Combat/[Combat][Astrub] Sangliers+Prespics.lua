@@ -12,7 +12,7 @@ OPEN_BAGS = false
 AUTO_DELETE = {  }
 
 MIN_MONSTERS = 1
-MAX_MONSTERS = 8
+MAX_MONSTERS = 6
 FORBIDDEN_MONSTERS = {  }
 MANDATORY_MONSTERS = {  }
 DISPLAY_FIGHT_COUNT = true
@@ -92,6 +92,11 @@ function move()
 		{ map="1,-16", changeMap = "right" },
 		{ map="1,-15", changeMap = "right" },
 		{ map="2,-15", changeMap = "right" },
+		{ map="2,-12", changeMap = "right" },
+		{ map="3,-12", changeMap = "right" },
+		{ map="4,-12", changeMap = "right" },
+		{ map="4,-13", changeMap = "top" },
+		{ map="4,-14", changeMap = "top" },
 		{ map="1,-14", changeMap = "right" },
 		{ map="2,-14", changeMap = "right" },
 		{ map="3,-14", changeMap = "top" },
@@ -290,5 +295,14 @@ function bank()
 		{ map="7,-22", changeMap = "left" },
 		{ map = "84674566", door = "303" },
 		{ map = "83887104", npcBank = true },
+	}
+end
+
+function phenix()
+	return {
+		{ map="2,-12", changeMap = "right" },
+		{ map="3,-12", changeMap = "bottom" },
+		{ map="3,-11", changeMap = "bottom" },
+		{ map="2,-12", phenix = "272" },
 	}
 end
