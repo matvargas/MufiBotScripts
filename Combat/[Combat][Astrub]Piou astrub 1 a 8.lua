@@ -88,6 +88,11 @@ function move()
 	{ map = "4,-14", fight = true, changeMap = "top|left" },
     { map = "-2,-14", changeMap = "right" },
     { map = "-1,-13", changeMap = "top" },
+    { map = "3,-12", changeMap = "right" },
+    { map = "4,-12", changeMap = "top" },
+    { map = "4,-13", changeMap = "top" },
+    { map = "2,-12", changeMap = "right" },
+    { map = "84673546", changeMap = "right" },
 	{ map = "84674566", changeMap = "top" },-- Map exterieure de la banque
     { map = "83887104", changeMap = "396" },-- Map interieur de la banque 
   }
@@ -173,5 +178,14 @@ function bank ()
     { map = "-1,-13", changeMap = "top" },
 	{ map = "84674566", door = "303" }, -- Map exterieure de la banque
     { map = "83887104", npcBank = true }, -- Parle au pnj et vide son inventaire en banque
+	}
+end
+
+function phenix()
+	return {
+		{ map="2,-12", changeMap = "right" },
+		{ map="3,-12", changeMap = "bottom" },
+		{ map="3,-11", changeMap = "bottom" },
+		{ map="2,-12", phenix = "272" },
 	}
 end
