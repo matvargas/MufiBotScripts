@@ -59,6 +59,9 @@ function bank()
     return
     {
     { map = "-1,-6", changeMap = "bottom"},
+    { map = "-3,-5", changeMap = "right"},
+    { map = "-2,-5", changeMap = "right"},
+    { map = "-1,-5", changeMap = "bottom"},
     { map = "-1,-5", changeMap = "bottom"},
     { map = "-1,-4", changeMap = "bottom"},  
     { map = "0,1" , changeMap = "top" },
