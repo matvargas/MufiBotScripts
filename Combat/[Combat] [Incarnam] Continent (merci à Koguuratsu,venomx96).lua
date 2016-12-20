@@ -1,7 +1,6 @@
----------------------------------------------
--- Créateur : MadzzUp
--- Merci à : Koguuratsu, venomx96
--- Type : Combat
+------------ ------iKog---urzzUCr
+--Ma---d-- -----
+ --tsu, venomx96 à : --- Type : Combat
 -- Zone : Incarnam
 ---------------------------------------------
 
