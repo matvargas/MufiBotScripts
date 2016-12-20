@@ -83,8 +83,8 @@ function move()
 		{ map="3,29", changeMap = "bottom" },
 		{ map="3,30", changeMap = "right" },
 		{ map="4,30", changeMap = "right" },
-		{ map = "90703872", changeMap = "bottom" }, // externo
-		{ map = "91753985", changeMap = "494" }, // interno 494 ou 480
+		{ map = "90703872", changeMap = "bottom" }, -- externo
+		{ map = "91753985", changeMap = "494" }, -- interno 494 ou 480
 	}
 end
 
@@ -121,7 +121,7 @@ function bank()
 		{ map="5,30", changeMap = "right" },
 		{ map="5,29", changeMap = "right" },
 		{ map="5,31", changeMap = "top" },
-		{ map = "90703872", door = "302" }, // externo
+		{ map = "90703872", door = "302" }, -- externo
 		{ map = "91753985", npcBank = true },
 	}
 end
