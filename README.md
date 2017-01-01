@@ -1,3 +1,3 @@
-# MifBotScripts
+# MufiBotScripts
 
-Scripts alterados para o MifBot
+Scripts alterados para o MufiBot
