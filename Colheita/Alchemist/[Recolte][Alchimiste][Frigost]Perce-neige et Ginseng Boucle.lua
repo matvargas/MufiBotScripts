@@ -30,7 +30,7 @@ function move()
 		{ map="-76,-48", changeMap = "top" },
 		{ map="-76,-49", gather = true, changeMap = "top" },
 		{ map="-76,-50", changeMap = "right" },
-		{ map="-75,-50", gather = true, changeMap = "top" },
+		{ map="-75,-50", gather = true, changeMap = "right" },
 		{ map="-74,-50", changeMap = "top" },
 		{ map="-74,-51", changeMap = "top" },
 		{ map="-74,-52", changeMap = "top" },
