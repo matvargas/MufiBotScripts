@@ -1,13 +1,13 @@
 
 OPEN_BAGS = true
 MIN_MONSTERS = 1
-MAX_MONSTERS = 6
+MAX_MONSTERS = 8
 
 DISPLAY_FIGHT_COUNT = true
 BANK_PUT_KAMAS = 0
 BANK_GET_KAMAS = 10000  
 BANK_GET_ITEMS = {
-    { item = 548, quantity = 10 }
+    { item = 548, quantity = 1 }
 }
 
 function move () 
