@@ -1,7 +1,7 @@
 
 OPEN_BAGS = true
 MIN_MONSTERS = 1
-MAX_MONSTERS = 8
+MAX_MONSTERS = 4
 
 MAX_PODS = 90
 
@@ -274,6 +274,9 @@ function bank()
 
 		{ map="-29, -63", changeMap = "bottom" },
 		{ map="159647746", changeMap = "bottom" },
+
+		{ map="-29, -62", changeMap = "bottom" },
+		{ map="146238", changeMap = "bottom" },
 		
 		{ map="-32, -56", changeMap = "right" },
 		{ map="147768", changeMap = "right" }, -- ZAAP
@@ -295,6 +298,18 @@ function bank()
 
 		{ map = "147254", custom = comptage, door = "383" },
 		{ map = "2885641", npcBank = true },
+
+		{ map="147255", changeMap = "bottom"},
+		{ map="147256", changeMap = "bottom"},
+		{ map="147257", changeMap = "bottom"},
+		{ map="147258", changeMap = "left"},
+		{ map="146746", changeMap = "left"},
+		{ map="146234", changeMap = "bottom"},
+		{ map="146235", changeMap = "bottom"},
+		{ map="146236", changeMap = "bottom"},
+		{ map="146237", changeMap = "bottom"},
+		{ map="146238", changeMap = "bottom"},
+
 
 	}
 end
